@@ -37,6 +37,7 @@ const Header = () => {
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200"
+            aria-label="Toggle mobile menu"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
